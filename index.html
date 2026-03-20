@@ -1,0 +1,430 @@
+<!doctype html>
+<html lang="pt-PT">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Walk in Lisbon — Tours a pé em Lisboa</title>
+  <meta name="description" content="Tours a pé curtos e práticos para descobrir Lisboa num dia, num fim‑de‑semana ou numa long weekend. Começa com o nosso primeiro roteiro: Lisboa em 1 Dia a Pé." />
+  <meta name="robots" content="index,follow" />
+  <meta property="og:title" content="Walk in Lisbon — Tours a pé em Lisboa" />
+  <meta property="og:description" content="Descobre Lisboa com roteiros a pé simples, bonitos e cheios de curiosidades. Primeiro tour: Lisboa em 1 Dia a Pé." />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="img/lisbon-cover.jpg" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <link rel="icon" href="/favicon.ico" />
+ <script src="https://cdn.tailwindcss.com"></script>
+
+<!-- Google Tag Manager (placeholder) -->
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-PHNRJGG6');</script>
+<!-- End Google Tag Manager -->
+</head>
+
+<body class="bg-neutral-50 text-neutral-900">
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PHNRJGG6"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+  <!-- Header -->
+  <header class="sticky top-0 z-50 bg-white/80 backdrop-blur border-b border-neutral-200">
+    <div class="max-w-5xl mx-auto px-4 py-3 flex items-center justify-between">
+      <a href="#" class="font-semibold tracking-tight text-lg">Walk in Lisbon</a>
+      <nav class="hidden md:flex gap-6 text-sm">
+        <a href="#tour" data-i18n="nav.tour" class="hover:underline">Primeiro Tour</a>
+        <a href="#como-funciona" data-i18n="nav.how" class="hover:underline">Como funciona</a>
+        <a href="#subscrever" data-i18n="nav.subscribe" class="hover:underline">Subscrever</a>
+      </nav>
+      <div class="flex items-center gap-3">
+        <!-- Seletor de idiomas -->
+        <select id="lang-select" class="border border-neutral-300 rounded-xl text-sm px-2 py-1 bg-white focus:outline-none focus:ring-2 focus:ring-black/10">
+          <option value="pt">🇵🇹 PT</option>
+          <option value="en">🇬🇧 EN</option>
+          <option value="fr">🇫🇷 FR</option>
+          <option value="es">🇪🇸 ES</option>
+          <option value="de">🇩🇪 DE</option>
+        </select>
+        <a href="#subscrever" data-i18n="cta.subscribe" class="md:inline-flex hidden px-4 py-2 rounded-xl border border-neutral-300 hover:bg-neutral-100 text-sm">Receber novidades</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section class="relative h-[90vh] flex items-center justify-center bg-center bg-cover bg-no-repeat" style="background-image: url('img/lisbon-cover.jpg');">
+  <!-- Overlay para melhorar contraste do texto -->
+  <div class="absolute inset-0 bg-black/40"></div>
+  <div class="relative z-10 max-w-4xl mx-auto px-4 text-white text-center">
+    <h1 data-i18n="hero.title" class="text-4xl sm:text-6xl font-bold leading-tight drop-shadow-md">
+      Descobre Lisboa a pé, sem complicações.
+    </h1>
+    <p data-i18n="hero.lead" class="mt-5 text-lg sm:text-xl max-w-2xl mx-auto">
+      Roteiros curtos, com paragens obrigatórias e curiosidades históricas para te guiarem pelas zonas mais bonitas da cidade. 
+      Começamos com um clássico: <strong>Lisboa em 1 Dia a Pé</strong>.
+    </p>
+    <div class="mt-8 flex flex-wrap justify-center gap-4">
+      <a data-i18n="btn.viewTour" href="#tour" class="px-6 py-3 rounded-xl bg-orange-600 text-white font-medium hover:bg-orange-700 transition">
+        <span>🎧</span> <span>Download Free PDF Guide</Span>
+      </a>
+      <!--<a data-i18n="btn.howItWorks" href="#como-funciona" class="px-6 py-3 rounded-xl bg-white/20 border border-white text-white font-medium hover:bg-white/30 transition">
+        Como funciona
+      </a>-->
+    </div>
+  </div>
+</section>
+
+  <!-- Primeiro Tour -->
+  <section id="tour" class="bg-white border-y border-neutral-200">
+    <div class="max-w-5xl mx-auto px-4 py-14">
+      <div class="flex items-start justify-between gap-6 flex-wrap">
+        <div>
+          <h2 data-i18n="tour.title" class="text-2xl sm:text-3xl font-semibold tracking-tight">Primeiro Tour: Lisboa em 1 Dia a Pé</h2>
+          <p data-i18n="tour.lead" class="mt-3 text-neutral-700 max-w-2xl">Um roteiro circular pensado para um primeiro contacto com Lisboa. Começa na <em>Praça do Comércio</em> e passa pela <em>Baixa</em>, <em>Chiado</em>, <em>Avenida da Liberdade</em>, <em>Príncipe Real</em>, <em>Miradouro de São Pedro de Alcântara</em>, desce ao <em>Rossio</em> e segue para <em>Alfama</em> (Sé, Miradouro das Portas do Sol) — com notas rápidas e curiosidades em cada paragem.</p>
+        </div>
+        <!--<div class="shrink-0">
+          <span data-i18n="badge.newBeta" class="inline-flex items-center gap-2 rounded-full border border-green-300 bg-green-50 px-3 py-1 text-xs text-green-800">Novo • Beta</span>
+        </div>-->
+      </div>
+
+      <div class="mt-8 grid md:grid-cols-3 gap-6">
+     <div class="rounded-2xl border border-neutral-200 bg-white p-5 shadow-sm">
+  <h3 class="font-medium" data-i18n="tour.details.title">Detalhes</h3>
+
+  <ul class="mt-3 space-y-2 text-sm text-neutral-700">
+    <li>
+      <strong data-i18n="tour.details.duration.label">Duração:</strong>
+      <span data-i18n="tour.details.duration.value">5–6 horas (com paragens)</span>
+    </li>
+    <li>
+      <strong data-i18n="tour.details.distance.label">Distância:</strong>
+      <span data-i18n="tour.details.distance.value">~10–12 km</span>
+    </li>
+    <li>
+      <strong data-i18n="tour.details.difficulty.label">Dificuldade:</strong>
+      <span data-i18n="tour.details.difficulty.value">Moderada (algumas subidas)</span>
+    </li>
+    <li>
+      <strong data-i18n="tour.details.start.label">Início:</strong>
+      <span data-i18n="tour.details.start.value">Arco da Rua Augusta (Praça do Comércio)</span>
+    </li>
+  </ul>
+
+  <div class="mt-4 flex flex-col gap-2">
+    <a
+      id="mapa"
+      href="https://www.google.com/maps/search/?api=1&query=38.707750,-9.136591"
+      target="_blank"
+      rel="noopener noreferrer"
+      class="px-4 py-2 rounded-xl border border-neutral-300 hover:bg-neutral-100 text-sm text-center"
+      data-i18n="tour.details.map"
+    >
+      Ver no mapa
+    </a>
+
+    <a
+      href="#download"
+      class="px-4 py-2 rounded-xl bg-black text-white text-sm text-center hover:opacity-90"
+      data-i18n="tour.details.download"
+    >
+      Descarregar guia (PDF)
+    </a>
+  </div>
+</div>
+
+
+        <div class="rounded-2xl border border-neutral-200 bg-white p-5 shadow-sm">
+          <h3 data-i18n="tour.itinerary.title" class="font-medium">Itinerário resumido</h3>
+          <ol class="mt-3 space-y-2 text-sm text-neutral-700 list-decimal list-inside">
+            <li data-i18n="tour.itinerary.i1">Praça do Comércio → Rua Augusta</li>
+            <li data-i18n="tour.itinerary.i2">Elevador de Santa Justa (vista)</li>
+            <li data-i18n="tour.itinerary.i3">Chiado → Largo do Carmo</li>
+            <li data-i18n="tour.itinerary.i4">Avenida da Liberdade (descoberta rápida)</li>
+            <li data-i18n="tour.itinerary.i5">Príncipe Real → Jardim</li>
+            <li data-i18n="tour.itinerary.i6">Miradouro de São Pedro de Alcântara</li>
+            <li data-i18n="tour.itinerary.i7">Rossio → Praça da Figueira</li>
+            <li data-i18n="tour.itinerary.i8">Alfama → Sé de Lisboa</li>
+            <li data-i18n="tour.itinerary.i9">Miradouro das Portas do Sol → Santa Luzia</li>
+          </ol>
+        </div>
+
+        <div class="rounded-2xl border border-neutral-200 bg-white p-5 shadow-sm">
+          <h3 data-i18n="tour.includes.title" class="font-medium">O que inclui</h3>
+          <ul class="mt-3 space-y-2 text-sm text-neutral-700">
+            <li data-i18n="tour.includes.i1">Mapa do percurso com paragens</li>
+            <li data-i18n="tour.includes.i2">Curiosidades históricas (curtas e simples)</li>
+            <li data-i18n="tour.includes.i3">Dicas práticas (transportes, horários, snacks)</li>
+            <li data-i18n="tour.includes.i4">Versão offline (PDF) para usar no telemóvel</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+    <!-- Como funciona -->
+  <!--<section id="como-funciona" class="bg-neutral-50">
+    <div class="max-w-5xl mx-auto px-4 py-14">
+      <h2 data-i18n="how.title" class="text-2xl sm:text-3xl font-semibold tracking-tight">Como funciona</h2>
+      <div class="mt-6 grid md:grid-cols-3 gap-6">
+        <div class="rounded-2xl border border-neutral-200 bg-white p-5 shadow-sm">
+          <h3 data-i18n="how.step1.title" class="font-medium">1) Escolhe o tour</h3>
+          <p data-i18n="how.step1.text" class="mt-2 text-sm text-neutral-700">Roteiros simples, feitos para caber num dia — ou num fim‑de‑semana.</p>
+        </div>
+        <div class="rounded-2xl border border-neutral-200 bg-white p-5 shadow-sm">
+          <h3 data-i18n="how.step2.title" class="font-medium">2) Descarrega o guia</h3>
+          <p data-i18n="how.step2.text" class="mt-2 text-sm text-neutral-700">PDF leve com mapa, paragens e curiosidades. Funciona offline.</p>
+        </div>
+        <div class="rounded-2xl border border-neutral-200 bg-white p-5 shadow-sm">
+          <h3 data-i18n="how.step3.title" class="font-medium">3) Explora e diverte‑te</h3>
+          <p data-i18n="how.step3.text" class="mt-2 text-sm text-neutral-700">Segue o percurso, faz pausas onde quiseres e descobre Lisboa ao teu ritmo.</p>
+        </div>
+      </div>
+    </div>
+  </section>-->
+
+
+    <!-- POI: Praça do Comércio -->
+  <section id="poi-praca-do-comercio" class="bg-gradient-to-b from-neutral-50 to-white border-t border-neutral-200">
+  <div class="max-w-6xl mx-auto px-4 py-16 md:py-20">
+    <div class="flex items-start justify-between gap-6 flex-wrap">
+      <div>
+        <span class="inline-flex items-center gap-2 text-sm font-medium text-orange-700 bg-orange-50 rounded-full px-3 py-1 border border-orange-200">Ponto de Interesse #1</span>
+        <h2 class="mt-4 text-3xl sm:text-4xl font-semibold tracking-tight">Praça do Comércio (Terreiro do Paço)</h2>
+        <p class="mt-3 text-neutral-700 max-w-3xl">O coração de Lisboa junto ao Tejo. Antiga entrada nobre da cidade e palco da reconstrução após o terramoto de 1755, hoje é uma das praças mais bonitas da Europa, com o Arco da Rua Augusta e a estátua equestre de D. José I ao centro.</p>
+      </div>
+    </div>
+
+    <div class="mt-8 grid md:grid-cols-3 gap-6">
+      <div class="rounded-2xl border border-neutral-200 bg-white p-5 shadow-sm">
+        <h3 class="font-medium">Porque é especial</h3>
+        <ul class="mt-3 space-y-3 text-sm text-neutral-700">
+          <li class="flex gap-3"><span>🏛️</span><span>Foi aqui que se ergueu o Paço da Ribeira, a residência real, até 1755.</span></li>
+          <li class="flex gap-3"><span>🧭</span><span>A praça atual integra a Baixa Pombalina, símbolo da reconstrução de Lisboa.</span></li>
+          <li class="flex gap-3"><span>🌆</span><span>O Arco da Rua Augusta marca a entrada na Baixa e oferece um miradouro sobre a cidade.</span></li>
+        </ul>
+      </div>
+
+      <div class="rounded-2xl border border-neutral-200 bg-white p-5 shadow-sm">
+        <h3 class="font-medium">Curiosidades</h3>
+        <ul class="mt-3 space-y-3 text-sm text-neutral-700">
+          <li class="flex gap-3"><span>🗿</span><span>A estátua de D. José I (1775), de Machado de Castro, foi o <em>primeiro</em> grande monumento equestre em bronze feito em Portugal.</span></li>
+          <li class="flex gap-3"><span>🏗️</span><span>O arco comemorativo foi concluído no séc. XIX e o miradouro está aberto ao público desde 2013.</span></li>
+          <li class="flex gap-3"><span>🏰</span><span>O nome <em>Terreiro do Paço</em> recorda o antigo palácio real destruído em 1755.</span></li>
+        </ul>
+      </div>
+
+      <div class="rounded-2xl border border-neutral-200 bg-white p-5 shadow-sm">
+        <h3 class="font-medium">Dicas rápidas</h3>
+        <ul class="mt-3 space-y-3 text-sm text-neutral-700">
+          <li class="flex gap-3"><span>📸</span><span>Melhor luz para fotos: manhã cedo ou fim da tarde.</span></li>
+          <li class="flex gap-3"><span>🎟️</span><span>Miradouro do Arco: entrada pela Rua Augusta (bilhete no local).</span></li>
+          <li class="flex gap-3"><span>💨</span><span>Se tiver vento no Tejo, leva um casaco leve — a brisa aqui sente-se.</span></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="mt-8 grid md:grid-cols-2 gap-6 items-start">
+      <div class="rounded-2xl border border-neutral-200 bg-white p-0 overflow-hidden">
+        <img src="img/praca-do-comercio.jpg" alt="Praça do Comércio, Lisboa" class="w-full h-full object-cover">
+      </div>
+
+      <div class="rounded-2xl bg-gradient-to-br from-sky-500 to-blue-600 text-white shadow-lg p-6 md:p-8">
+        <h3 class="text-2xl font-semibold">Mapa e percurso</h3>
+        <p class="mt-2 text-white/90">Ponto de partida do tour. Encontra-se junto ao Arco da Rua Augusta e aos Cais das Colunas.</p>
+
+        <div class="mt-6 grid gap-3 sm:grid-cols-2">
+          <a id="mapa" href="https://www.google.com/maps/search/?api=1&query=38.707750,-9.136591" target="_blank" rel="noopener noreferrer" class="px-4 py-2 rounded-xl bg-white text-blue-700 text-sm font-medium text-center hover:bg-white/90">Abrir no mapa</a>
+          <a id="download" href="#" class="px-4 py-2 rounded-xl bg-white/10 border border-white/30 text-sm font-medium text-center hover:bg-white/20">Descarregar folha do POI (PDF)</a>
+        </div>
+
+        <div class="mt-6 rounded-xl bg-white/10 p-4">
+          <div class="flex items-center justify-between text-sm font-medium text-white/90">
+            <span>Coordenadas</span>
+            <span>38.70775, -9.13659</span>
+          </div>
+          <div class="mt-3 h-2 rounded-full bg-white/20">
+            <div class="h-2 w-3/5 rounded-full bg-white"></div>
+          </div>
+          <p class="mt-3 text-sm text-white/80">Arco da Rua Augusta • Cais das Colunas • Frente‑rio</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="mt-8 p-5 rounded-2xl border border-neutral-200 bg-white shadow-sm">
+      <h3 class="font-medium">História em 5 linhas</h3>
+      <p class="mt-2 text-sm text-neutral-700">Antes de 1755, aqui ficava o Paço da Ribeira, o palácio real. O terramoto e o maremoto destruíram a zona e nasceram a Baixa Pombalina e esta praça monumental, virada ao Tejo. Ao centro ergue-se a estátua equestre de D. José I; do lado norte, o Arco da Rua Augusta celebra a reconstrução e liga a praça à Baixa.</p>
+    </div>
+  </div>
+</section>
+
+    <!-- Bloco: Áudio Premium / Narrativa -->
+  <section id="audio" class="relative bg-gradient-to-b from-neutral-50 to-white border-t border-neutral-200">
+    <div class="max-w-6xl mx-auto px-4 py-16 md:py-20 grid md:grid-cols-2 gap-10 items-center">
+      <!-- Texto -->
+      <div>
+        <span class="inline-flex items-center gap-2 text-sm font-medium text-orange-700 bg-orange-50 rounded-full px-3 py-1 border border-orange-200">Experiência Premium</span>
+        <h2 class="mt-4 text-3xl sm:text-4xl font-semibold tracking-tight">
+          Melhora o teu passeio com <span class="text-orange-600">narração áudio</span>
+        </h2>
+        <p class="mt-4 text-neutral-700 text-base leading-relaxed max-w-prose">
+          Transforma a tua caminhada numa experiência imersiva de storytelling. Ouve histórias fascinantes, segredos históricos e lendas locais enquanto exploras cada ponto — é como teres um guia ao teu lado.
+        </p>
+        <ul class="mt-6 space-y-3 text-neutral-800">
+          <li class="flex items-start gap-3"><span class="mt-1">⭐</span><span>Narração profissional por locais e historiadores.</span></li>
+          <li class="flex items-start gap-3"><span class="mt-1">⏱️</span><span>Mais de 2 horas de conteúdo áudio premium.</span></li>
+          <li class="flex items-start gap-3"><span class="mt-1">🔊</span><span>Qualidade alta em 15+ paragens do percurso.</span></li>
+        </ul>
+        <div class="mt-7">
+          <a href="#comprar-audio" class="inline-flex items-center gap-2 px-5 py-3 rounded-xl bg-orange-600 text-white font-medium hover:bg-orange-700 transition">
+            <span>🎧</span> <span>Obter Experiência Áudio Completa — €9,99</span>
+          </a>
+        </div>
+        <p class="mt-3 text-sm text-neutral-500">Pagamento único. Teu para sempre. Descarrega e ouve offline.</p>
+      </div>
+
+      <!-- Cartão de amostra -->
+      <div class="relative">
+        <div class="rounded-2xl bg-gradient-to-br from-sky-500 to-blue-600 text-white shadow-lg p-6 md:p-8">
+          <div class="w-16 h-16 rounded-lg bg-white/20 grid place-items-center text-2xl">🎧</div>
+          <h3 class="mt-6 text-2xl font-semibold">Guia Áudio Premium</h3>
+          <p class="mt-2 text-white/90">Sente Lisboa através das vozes e das histórias de quem a vive.</p>
+
+          <div class="mt-6 rounded-xl bg-white/10 p-4">
+            <div class="flex items-center justify-between text-sm font-medium text-white/90">
+              <span>Amostra: Miradouro S. Pedro</span>
+              <span>2:30</span>
+            </div>
+            <div class="mt-3 h-2 rounded-full bg-white/20">
+              <div class="h-2 w-1/3 rounded-full bg-white"></div>
+            </div>
+            <p class="mt-3 text-sm italic text-white/80">“Acima das ruas movimentadas, este miradouro guarda segredos…”</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+    <!-- Bloco: Amostras de Áudio -->
+  <section id="amostras-audio" class="bg-white border-t border-neutral-200">
+    <div class="max-w-6xl mx-auto px-4 py-16 md:py-20">
+      <div class="text-center max-w-2xl mx-auto">
+        <h2 class="text-3xl sm:text-4xl font-semibold tracking-tight">Amostras de áudio gratuitas</h2>
+        <p class="mt-3 text-neutral-700">Experimenta um pouco da nossa experiência premium com estes excertos.</p>
+      </div>
+
+      <div class="mt-10 grid sm:grid-cols-2 gap-6">
+        <!-- Card 1 -->
+        <article class="rounded-2xl border border-neutral-200 bg-white shadow-sm p-5">
+          <div class="flex items-start gap-3">
+            <div class="w-10 h-10 rounded-lg bg-orange-100 text-orange-700 grid place-items-center">🔊</div>
+            <div>
+              <h3 class="font-medium">Miradouro de São Pedro de Alcântara</h3>
+              <p class="text-sm text-neutral-600">História romântica e vistas panorâmicas deste miradouro icónico.</p>
+            </div>
+          </div>
+          <div class="mt-4 rounded-xl bg-neutral-100 p-4">
+            <div class="flex items-center justify-between text-sm text-neutral-700">
+              <span>Pré‑escuta</span>
+              <span>1:45</span>
+            </div>
+            <div class="mt-3 h-2 rounded-full bg-neutral-300">
+              <div class="h-2 w-1/2 rounded-full bg-neutral-500"></div>
+            </div>
+          </div>
+          <div class="mt-4">
+            <a href="#listen-1" class="inline-flex items-center gap-2 px-4 py-2 rounded-xl border border-neutral-300 hover:bg-neutral-100 text-sm"><span>▶️</span><span>Ouvir amostra</span></a>
+          </div>
+        </article>
+
+        <!-- Card 2 -->
+        <article class="rounded-2xl border border-neutral-200 bg-white shadow-sm p-5">
+          <div class="flex items-start gap-3">
+            <div class="w-10 h-10 rounded-lg bg-blue-100 text-blue-700 grid place-items-center">🔊</div>
+            <div>
+              <h3 class="font-medium">Elevador de Santa Justa</h3>
+              <p class="text-sm text-neutral-600">Descobre a engenharia e as histórias por trás do elevador de ferro.</p>
+            </div>
+          </div>
+          <div class="mt-4 rounded-xl bg-neutral-100 p-4">
+            <div class="flex items-center justify-between text-sm text-neutral-700">
+              <span>Pré‑escuta</span>
+              <span>2:10</span>
+            </div>
+            <div class="mt-3 h-2 rounded-full bg-neutral-300">
+              <div class="h-2 w-2/5 rounded-full bg-neutral-500"></div>
+            </div>
+          </div>
+          <div class="mt-4">
+            <a href="#listen-2" class="inline-flex items-center gap-2 px-4 py-2 rounded-xl border border-neutral-300 hover:bg-neutral-100 text-sm"><span>▶️</span><span>Ouvir história</span></a>
+          </div>
+        </article>
+      </div>
+
+      <div class="mt-10 text-center">
+        <a href="#comprar-audio" class="inline-flex items-center gap-2 px-6 py-3 rounded-xl bg-orange-600 text-white font-medium hover:bg-orange-700 transition">
+          <span>🔓</span><span>Desbloquear todas as histórias — €9,99</span>
+        </a>
+        <p class="mt-3 text-sm text-neutral-500">Estas são apenas 2 de mais de 15 histórias áudio do guia completo.</p>
+      </div>
+    </div>
+
+    <!-- faixa gradiente decorativa -->
+    <div class="h-2 bg-gradient-to-r from-orange-400 via-amber-500 to-orange-600"></div>
+  </section>
+
+
+
+  <!-- Subscrever / Contacto -->
+  <section id="subscrever" class="bg-white border-t border-neutral-200">
+    <div class="max-w-5xl mx-auto px-4 py-14">
+      <div class="grid md:grid-cols-2 gap-10">
+        <div>
+          <h2 data-i18n="subscribe.title" class="text-2xl sm:text-3xl font-semibold tracking-tight">Queres ser o primeiro a receber novos tours?</h2>
+          <p data-i18n="subscribe.lead" class="mt-3 text-neutral-700">Enviaremos novidades poucas vezes e só quando houver algo útil (novo tour, guia áudio, descontos).</p>
+          <form data-i18n="" class="mt-5 flex gap-3" onsubmit="event.preventDefault(); alert('Obrigado! Iremos enviar novidades em breve.'); this.reset();">
+            <input data-i18n="subscribe.input" type="email" required placeholder="O teu e‑mail" class="flex-1 px-4 py-3 rounded-xl border border-neutral-300 focus:outline-none focus:ring-2 focus:ring-black/10" />
+            <button data-i18n="subscribe.button" class="px-5 py-3 rounded-xl bg-black text-white text-sm font-medium hover:opacity-90">Subscrever</button>
+          </form>
+          <p data-i18n="subscribe.legal" class="mt-2 text-xs text-neutral-500">Sem spam. Podes cancelar quando quiseres.</p>
+        </div>
+        <div class="rounded-2xl border border-neutral-200 bg-neutral-50 p-5">
+          <h3 data-i18n="feedback.title" class="font-medium">Feedback rápido</h3>
+          <p data-i18n="feedback.lead" class="mt-2 text-sm text-neutral-700">Que parte de Lisboa queres ver a seguir? Tens sugestões para melhorar o guia?</p>
+          <form data-i18n="" class="mt-4 space-y-3" onsubmit="event.preventDefault(); alert('Obrigado pelo feedback!'); this.reset();">
+            <input data-i18n="feedback.input.area" type="text" placeholder="Sugestão de zona/bairro" class="w-full px-4 py-3 rounded-xl border border-neutral-300 focus:outline-none focus:ring-2 focus:ring-black/10" />
+            <textarea data-i18n="feedback.input.text" rows="4" placeholder="Escreve aqui as tuas ideias" class="w-full px-4 py-3 rounded-xl border border-neutral-300 focus:outline-none focus:ring-2 focus:ring-black/10"></textarea>
+            <button data-i18n="feedback.button" class="px-5 py-3 rounded-xl bg-white border border-neutral-300 hover:bg-neutral-100 text-sm">Enviar</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="border-t border-neutral-200 bg-white">
+    <div class="max-w-5xl mx-auto px-4 py-10 text-sm text-neutral-600 flex flex-wrap items-center justify-between gap-4">
+      <p>© <span data-i18n="" id="year"></span> Walk in Lisbon — <span data-i18n="footer.made">Feito com ❤️ em Lisboa</span></p>      
+      <nav class="flex gap-4">
+        <a data-i18n="footer.terms" href="#" class="hover:underline">Termos</a>
+        <a data-i18n="footer.privacy" href="#" class="hover:underline">Privacidade</a>
+        <a data-i18n="footer.contact" href="#subscrever" class="hover:underline">Contacto</a>
+      </nav>
+    </div>
+  </footer>
+
+ 
+<!--Scripts -->
+
+
+ <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+
+<!-- Script de tradução (externo) -->
+<script src="js/i18n.js"></script>
+
+
+</body>
+</html>
